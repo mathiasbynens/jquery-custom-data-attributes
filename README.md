@@ -23,9 +23,11 @@ This plugin simplifies the use of HTML5 custom data attributes in your jQuery co
 
 ## Useful?
 
-That’s up to you. This plugin isn’t rocket science. Using it won’t save you bytes or anything.
+That’s up to you. This plugin isn’t rocket science.
 
 However, it does allow you to write *even more readable code*. Personally, I like to keep custom data attributes separated from other attributes in my code — hence this plugin.
+
+Since `.dataAttr('foo')` minifies to `.x('foo')`, while `.attr('data-foo')` minifies to `.y('data-foo')`, using this plugin can save you some bytes after minification, especially when dealing with a lot of data attributes in your code.
 
 ## Credits
 
