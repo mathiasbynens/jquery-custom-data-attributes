@@ -5,5 +5,5 @@
  * @author Mathias Bynens <http://mathiasbynens.be/>
  */
 jQuery.fn.dataAttr = function(attr, val) {
- return val ? this.attr('data-' + attr, val) : this.attr('data-' + attr);
+	return val ? this.attr('data-' + attr, val) : this.attr('data-' + attr);
 };
