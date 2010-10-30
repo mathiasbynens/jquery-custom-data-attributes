@@ -29,6 +29,8 @@ However, it does allow you to write *even more readable code*. Personally, I lik
 
 Since `.dataAttr('foo')` minifies to `.x('foo')`, while `.attr('data-foo')` minifies to `.y('data-foo')`, using this plugin can save you some bytes after minification, especially when dealing with a lot of data attributes in your code.
 
+**Note:** As of jQuery 1.4.3, [`.data()`](http://api.jquery.com/data/) maps to custom `data-*` attributes by default, rendering this plugin redundant. It can still be used for older versions of jQuery though.
+
 ## Credits
 
 _– [Mathias](http://mathiasbynens.be/)_
