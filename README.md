@@ -12,7 +12,7 @@ This plugin simplifies the use of HTML5 custom data attributes in your jQuery co
 
 ### jQuery
 
-```
+```js
 // You can perfectly use this:
 $('#foo').attr('data-time'); // '9 AM'
 // But I prefer to do it this way, especially when dealing with a lot of data-*
@@ -35,6 +35,12 @@ Since `.dataAttr('foo')` minifies to `.x('foo')`, while `.attr('data-foo')` mini
 
 **Note:** As of jQuery 1.4.3, [`.data()`](http://api.jquery.com/data/) maps to custom `data-*` attributes by default, rendering this plugin redundant. It can still be used for older versions of jQuery though.
 
-## Credits
+## Author
 
-_– [Mathias](http://mathiasbynens.be/)_
+| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
+|---|
+| [Mathias Bynens](http://mathiasbynens.be/) |
+
+## License
+
+This plugin is dual licensed under the [MIT](http://mths.be/mit) and [GPL](http://mths.be/gpl) licenses, just like jQuery itself.
