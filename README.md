@@ -6,20 +6,24 @@ This plugin simplifies the use of HTML5 custom data attributes in your jQuery co
 
 ### HTML
 
-    <p id="foo" data-time="9 AM">…</p>
+```html
+<p id="foo" data-time="9 AM">…</p>
+```
 
 ### jQuery
 
-    // You can perfectly use this:
-    $('#foo').attr('data-time'); // '9 AM'
-    // But I prefer to do it this way, especially when dealing with a lot of data-*
-    $('#foo').dataAttr('time');  // '9 AM'
-    // Just like $.attr(), $.dataAttr() can be used as a setter
-    $('#foo').dataAttr('time', '3 PM');
-    // Computed data-* attribute values are possible as well
-    $('p').dataAttr('id', function() {
-     return this.id;
-    }); // p data-id="foo"
+```
+// You can perfectly use this:
+$('#foo').attr('data-time'); // '9 AM'
+// But I prefer to do it this way, especially when dealing with a lot of data-*
+$('#foo').dataAttr('time');  // '9 AM'
+// Just like $.attr(), $.dataAttr() can be used as a setter
+$('#foo').dataAttr('time', '3 PM');
+// Computed data-* attribute values are possible as well
+$('p').dataAttr('id', function() {
+  return this.id;
+}); // p data-id="foo"
+```
 
 ## Useful?
 

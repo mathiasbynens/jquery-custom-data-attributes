@@ -1,0 +1,11 @@
+{
+	"name": "jquery-custom-data-attributes",
+	"version": "1.0.0",
+	"main": "jquery.dataAttr.js",
+	"dependencies": {
+		"jquery": "<=1.4.1"
+	},
+	"ignore": [
+		".*"
+	]
+}
